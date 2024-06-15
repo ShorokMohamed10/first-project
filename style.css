@@ -1,0 +1,971 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /*-------varibles--------*/
+  :root{
+    --mymaincolor: rgb(52, 52, 52);
+    --mymaincolor1: rgb(44, 201, 47);
+    --mymaincolor2: rgba(131, 236, 236, 0.884);
+    --mymaincolorhover: rgb(64, 127, 64);
+    --mymaincolorhover1:rgba(43, 206, 206, 0.884);
+    --mymaincolor5:rgb(31, 31, 31);
+
+
+  }
+  /* ----start header----*/
+.first{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--mymaincolor);
+    height: 50px;
+}
+.te1{
+    color: white;
+}
+.text {
+    color: var(--mymaincolor1);
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.first2 button{
+    color: white;
+    background-color: var(--mymaincolor1);
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    border-style:none ;
+}
+.first2 button:hover{
+    background-color: var(--mymaincolorhover);
+
+}
+/*-----------end header---------*/
+/*----------start nav bar-------*/
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+}
+.left h1{
+    color: var(--mymaincolor2);
+    font-size: 40px;
+}
+.left p{
+    color: white;
+    font-size: 8px;
+    text-align: center;
+}
+.right a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.right a:hover{
+    background-color: var(--mymaincolorhover1);
+    border-radius: 10px;
+}
+.right i{
+    color: var(--mymaincolor2);
+}
+       /*------------end nav bar---------*/
+       /*------------start section 1--------*/
+.creative{
+    background-color: background: #0F2027;  /* fallback for old browsers */
+    background:-webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background:linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    height: 900px;
+    display: flex;
+    justify-content:space-between;
+    opacity: .9;
+}
+.ident{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left:10%;
+}
+.ident li{
+    list-style: none; 
+    margin: 20px;
+}
+.cr{
+    color: var(--mymaincolor2);
+}
+.one{
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.ident h1 {
+    font-size: 50px;
+}
+.ident p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.ident1{
+   display: flex;
+   align-items: center;
+}
+.ident1 i{
+    font-size: 30px;
+    background-color: var(--mymaincolor2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 255, 255, 0.301);
+}
+.two{
+    text-decoration: none;
+    
+}
+li hr{
+    max-width: 20%;
+}
+.ident hr{
+    max-width: 15%;
+    margin-left: 4%;
+}
+/*-------------end section 1------*/
+/*------------start section 2-----*/
+.service{
+    background-color: black;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.servright h3{
+    color: var(--mymaincolor2);
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;
+}
+.servright h1{
+    color: white;
+    font-size: 50px; 
+}
+.servright p{
+    color: #ddd;
+    font-size: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 10px;
+}
+.servright{
+    padding-left: 10%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.servright button{
+    margin: 10px;
+    color: white;
+    background-color: var(--mymaincolor2);
+    padding: 15px 20px;
+    border-style: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+.servright button:hover{
+    background-color: var(--mymaincolorhover1);
+}
+.servright hr{
+    max-width: 20%;
+    margin: 30px;
+}
+.servright a{
+    text-decoration: none;
+    color: var(--mymaincolor2);
+}
+.servleft img{
+    max-width: 40%;
+}
+ .brand{
+    color: white;
+    text-align: center;
+    background-color: var(--mymaincolor5);
+    padding: 20px;
+    margin: 10px;
+    max-width: 50%;
+    transition: all 1s ease;
+}
+.brand:hover{
+    transform: scale(1.1);
+}
+.web{
+    color: white;
+    text-align: center;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+    margin: 10px;
+    max-width: 50%;
+    transition: all 1s ease;
+}
+.web:hover{
+    transform: scale(1.1);
+}
+.ui{
+    color: white;
+    text-align: center;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+    margin: 10px;
+    max-width: 50%;
+    transition:all 1s ease;
+}
+.ui:hover{
+    transform: scale(1.1);
+}
+.video{
+    color: white;
+    text-align: center;
+    background-color: var(--mymaincolor5);
+    padding: 20px;
+    margin: 10px;
+    max-width: 50%;
+    transition:all 1s ease;
+}
+.video:hover{
+    transform: scale(1.1);
+}
+.servleft p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ddd;
+    padding: 10px;
+}
+.servleft{
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*------------end section 2-----*/
+/*-----------start section 3-----*/
+.part0{
+    background-color: var(--mymaincolor5);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textandpic{
+    max-width: 45%;
+}
+.textandpic h3{
+    color: var(--mymaincolor2);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.textandpic h1{
+    color: white;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.textandpic a{
+    text-decoration: none;
+    color: var(--mymaincolor2);
+}
+.textandpic hr{
+    max-width: 20%;
+    margin: 20px;
+}
+.textandpic p{
+    color: #ddd;
+    padding: 10px;
+}
+.textandpic ul{
+    list-style: none;
+}
+.mixpc img{
+    max-width: 80px;
+    height: 80px;
+}
+.mixtex h1{
+    font-size: 25px;
+    margin: 10px;
+}
+.mix0 {
+    display: flex;
+    align-items: center;
+}
+.mix{
+    display: flex;
+    align-items: center;
+}
+.lic{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.imagehead{
+    max-width: 40%;
+    padding-top: 3.9%;
+    padding-right: 20px;
+}
+/*----------End section 3----------*/
+/*----------start section 4-------*/
+.re img{
+    max-width: 25%;
+}
+.review{
+    background-image: url("side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg");
+    background-size: cover;
+    height: 300px;
+    opacity: .8;
+    display: flex;
+    align-items: center;
+}
+.rebig{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.re h1{
+    color: var(--mymaincolor2);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.re h3{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+}
+/*----------end section 4-------*/
+/*-----------start section 5-------*/
+.latest{
+    background-color: black;
+    height: 1100px;
+}
+.ourtext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.ourimage img{
+    max-width:100%;
+}
+.ourtext hr{
+    max-width: 10%;
+    padding: 1px;
+    margin: 20px;
+}
+.ourtext h3{
+    color: var(--mymaincolor2);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.ourtext h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.ourtext a{
+    color: var(--mymaincolor2);
+    text-decoration: none;
+}
+.ourtext .p1{
+    color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    list-style: none;
+}
+.ourtext .icheck{
+    color: var(--mymaincolor2);
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+.icheck p{
+    color: #ddd;
+    font-size: 20px;
+    margin: 10px;
+}
+.ourimage-one img{
+    max-width: 30%;
+}
+.ourimage-one{
+    max-width: 100%;
+    margin-left: 10%;
+    margin-right: 1.5%;
+    margin-top: 20px;
+}
+/*-----------end section 5-------*/
+/*-----------start section 6-------*/
+.talk{
+    background-image: url("1.jpg");
+    background-size: cover;
+    opacity: .9;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.talk1{
+    display: flex;
+    justify-content: center;
+}
+.talk1 img{
+    max-width: 15%;
+    opacity: .9;
+}
+/*-----------start section 7-------*/
+.onlytext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+}
+.onlyright h3{
+    color: var(--mymaincolor2);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+.onlyright h1{
+    color: white;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.onlyright a{
+    text-decoration: none;
+    color: var(--mymaincolor2);
+}
+.onlylift p{
+    color: #ddd;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+.onlylift h4{
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.onlylift .fa-circle-check{
+    color: var(--mymaincolor2);
+    font-size: 30px;
+    margin: 10px;
+}
+.onlylift li{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.onlylift{
+    max-width: 40%;
+    margin-top: 10%;
+}
+.onlyright{
+    max-width: 40%; 
+}
+/*-------------end section 7-------*/
+/*------------start section 8--------*/
+.vide{
+    background-color: black;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.vide2{
+    margin: 100px 30px ;
+}
+/*-------------end section 8-------*/
+/*------------start section 9--------*/
+.expert{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meet ul{
+    max-width: 50%;
+    text-align: center;
+    margin: 20px;
+}
+.meet1 h3{
+    color: var(--mymaincolor2);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+.meet1 h1{
+    color: white;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.meet1 a{
+    text-decoration: none;
+    color: var(--mymaincolor2);
+}
+.meet1 li hr{
+    max-width: 10%;
+    margin:auto;
+}
+.meet1 p{
+    color: #ddd;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+/*-------------end section 9-------*/
+/*-------------start section 10-------*/
+.fourtype{
+    background-image: url("Bg-1.jpg");
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.fourtype img{
+    max-width: 300px;
+}
+.fourtype a {
+    color: var(--mymaincolor2);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.fourtype h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.fourtype p{
+    color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+.fourtype i{
+    color: var(--mymaincolor2);
+    padding-left: 25px;
+}
+.type1{
+    max-width: 35%;
+    background-color: var(--mymaincolor5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.type2{
+    max-width: 35%;
+    background-color: var(--mymaincolor5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.type3{
+    max-width: 35%;
+    background-color: var(--mymaincolor5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.type4{
+    max-width: 35%;
+    background-color: var(--mymaincolor5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+.com{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/*-----------end section 10-----*/
+/*----------start section 11---*/
+.work{
+    background-color: black;
+    height: 1300px;
+}
+.workup{
+    text-align: center;
+}
+.workup h3 {
+    color: var(--mymaincolor2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.workup a{
+    color: var(--mymaincolor2);
+    text-decoration: none;
+}
+.workup h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+}
+.workup p{
+    color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 15px;
+}
+.workup hr{
+    max-width: 5%;
+    margin: auto;
+}
+.workdown img{
+    max-width: 350px;
+    padding: 10px;
+}
+.workdown {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+/*--------------end section 11--------*/
+/*-----------start section 12------*/
+.adam img{
+    max-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.says{
+    background-image: url("adadad.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.testi h3{
+    color: var(--mymaincolor2);
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.testi h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.says a{
+    color: var(--mymaincolor2);
+    text-decoration: none;
+}
+.testi hr{
+    max-width: 20%;
+    margin: 20px;
+}
+.testi button{
+    color: white;
+    background-color: var(--mymaincolor2);
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+    border-style: none;
+    margin: 10px;
+}
+.testi button:hover{
+    background-color: var(--mymaincolorhover1);
+    color: var(--mymaincolor);
+}
+.testi{
+    max-width: 35%;
+}
+.says p{
+    color: #ddd;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding: 10px;
+}
+.adam h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.adam i{
+    color: var(--mymaincolor2);
+    font-size: 40px;
+    
+}
+.adam{
+    background-color: var(--mymaincolor5);
+    max-width: 35%;
+    padding: 20px;
+}
+.adampc{
+    display: flex;
+    align-items: center;
+}
+.adamtx{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*-------------end section 12----*/
+/*-----------start section 13----*/
+.blogtx h3{
+    color: var(--mymaincolor2);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    padding: 10px;
+}
+.blogtx h1{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.blogtx a{
+    text-decoration: none;
+    color: var(--mymaincolor2);
+}
+.blogtx p{
+    padding: 20px;
+    color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 70%;
+    margin: auto;
+}
+.blogtx hr{
+    max-width: 10%;
+    margin: auto;
+
+}
+.blogtx{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.blog{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-------------end section 13----*/
+/*-------------start section 14--*/
+.parts3 img{
+    max-width: 100%;
+}
+.parts3{
+    background-color: black;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parts3-one{
+    max-width: 22%;
+    margin: 20px;
+}
+.parts3-one h2{
+    color: var(--mymaincolor2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+.parts3-one p{
+    color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+.parts3ico i{
+    color: var(--mymaincolor2);
+    font-size: 20px;   
+}
+.parts3ico h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 30px 10px;
+}
+.parts3ico{
+    display: flex;
+    align-items: center; 
+}
+/*-----------end section 14---*/
+/*---------start section 15---*/
+.form{
+    background-image: url("sh.jpg");
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form h3{
+    color: var(--mymaincolor2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form h1{
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.form p{
+    color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.form h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
+}
+.add{
+    display: flex;
+    margin: 10px;
+}
+.add p{
+    color: var(--mymaincolor2);
+}
+.form a{
+    color: var(--mymaincolor2);
+    text-decoration:none;
+}
+.form hr{
+    max-width: 15%;
+    margin: 10PX;
+}
+.fromright i{
+    color: var(--mymaincolor2);
+    font-size: 35px;
+}
+.fromright{
+    max-width:30%;
+    margin: 10px;
+}
+
+.form1 label{
+    color: var(--mymaincolor2);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+fieldset {
+    max-width: 40%;
+    height: auto;
+    padding: 10px;
+    border-color:var(--mymaincolor2) ;
+}
+fieldset input{
+    background-color: black;
+    border-color:var(--mymaincolor2) ;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.send{
+    padding: 50px;
+}
+fieldset .button{
+    color: white;
+    background-color: var(--mymaincolor2);
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    margin: 10px;
+}
+fieldset .button:hover{
+    background-color: var(--mymaincolorhover1);
+}
+/*-----------end section 15---*/
+/*----------start section 16---*/
+.footernav{
+    background-color: black;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.allfo{
+    text-align: center;
+
+}
+.footext h1{
+    color: var(--mymaincolor2);
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footext p{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+.fonav a{
+    text-decoration: none;
+    color: var(--mymaincolor2);
+    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: all 1s ease;
+}
+.fonav{
+    margin: 40px;
+}
+.fonav a:hover{
+    background-color: var(--mymaincolorhover1);
+    border-radius: 10%;
+    padding: 10px;
+    transform: scale(1.1);
+}
+.fop p{
+    color: #ddd;
+    max-width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+.fooicons i{
+    color: var(--mymaincolor2);
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 10px;
+    transition: all 1s ease;
+}
+.fooicons i:hover{
+    color: var(--mymaincolorhover1);
+    transform: scale(1.4);
+}
+/*-----------end section 16---*/
+/*-----------start section 17---*/
+.footer{
+    background-color: black;
+    height: 50px;
+}
+.copy{
+    color: #dddddd95;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
